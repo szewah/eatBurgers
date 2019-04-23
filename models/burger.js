@@ -19,8 +19,8 @@ let burger = {
         });
     },
 
-    deleteOne: function(cb) {
-        orm.deleteOne(function(res) {
+    deleteOne: function(id, cb) {
+        orm.deleteOne(id, function(res) {
             cb(res);
         });
     }

@@ -4,8 +4,6 @@ let express = require("express");
 let router = express.Router();
 let bigBurger = require("../models/burger");
 
-console.log(bigBurger);
-
 router.get("/", function(req, res) {
     bigBurger.selectAll(function(data) {
         var hbsBurgerObject = {
@@ -25,7 +23,6 @@ router.post("/", function(req, res, next) {
 });
 
 router.put("/:id", function(req, res, next) {
-    console.log("REQUEST", req.params.id);
     let itemID = req.params.id;
 
     bigBurger.updateOne(itemID, function(err, result) {
@@ -35,9 +32,10 @@ router.put("/:id", function(req, res, next) {
 });
 
 router.delete("/:id", function(req, res, next) {
-    let itemID = req.params.id;
+    console.log("DELETE REQUEST", req.params.id);
+    let itemId = req.params.id;
 
-    bigBurger.deleteOne(itemID, function(err, results) {
+    bigBurger.deleteOne(itemId, function(err, results) {
         if (err) next(err);
         res.redirect("/");
     })
