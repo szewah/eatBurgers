@@ -15,7 +15,6 @@ let burger = {
     },
     updateOne: function(id, cb) {
         orm.updateOne(id, function(res) {
-            console.log("This is the id number", id);
             cb(res);
         });
     },

@@ -20,14 +20,13 @@ let orm = {
     },
     updateOne: function(id, cb) {
         let queryString = `UPDATE burgers SET devoured = true WHERE id = "${id}"`;
-        console.log("UPDATE", queryString);
         connection.query(queryString, id, function(err, result) {
             if (err) console.error(err);
             cb(result);
         });
     },
     deleteOne: function(id, cb) {
-        let queryString = `DELETE FROM burgers WHERE id = "${id}`;
+        let queryString = `DELETE FROM burgers WHERE id = "${id}"`;
         connection.query(queryString, function(err, result) {
             if (err) console.error(err);
             cb(result);
