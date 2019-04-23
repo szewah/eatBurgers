@@ -1,0 +1,39 @@
+body {
+    background-color: #ffcdd2;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#burger {
+    display: block;
+    margin: 50px auto 5px auto;
+    width: 100px;
+}
+
+#newBurgerName {
+    background: white;
+}
+
+#add-burger-btn {
+    width: 40%;
+    display: block;
+    margin: 20px auto;
+}
+
+p {
+    font-size: 15px;
+    margin: 1px;
+    text-align: center;
+}
+
+.btn-small {
+    display: inline-block;
+    font-size: 10px;
+}
+
+#devoured {
+    text-align: right;
+}
