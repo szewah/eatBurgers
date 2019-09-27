@@ -10,13 +10,11 @@ A basic fullstack restaurant app that lets users input the names of burgers they
 
 ## Built with
 
-Javascript, HTML, CSS, Handlebars, Materialize, MySQL, Node, express
+HTML, CSS, JavaScript,  Handlebars, Materialize, MySQL, Sequelize, Node, express
 
 ## Acknowledgements
 Thanks to the instructors and teaching assistants at Columbia Univeristy Coding Bootcamp.
 
-## License
-MIT
 
 
 
