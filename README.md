@@ -9,7 +9,7 @@ A basic full stack restaurant app that lets users input the names of burgers the
 
 
 ## Built with
-HTML, CSS, JavaScript, Handlebars, Materialize, MySQL, Sequelize, Node, Express
+HTML, CSS, JavaScript, Handlebars, Materialize, MySQL, Sequelize, Node.js, Express.
 
 ## Installation
 Download the file, open in VSC and run.
