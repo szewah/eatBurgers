@@ -13,7 +13,12 @@ A basic full stack restaurant app that lets users input the names of burgers the
 HTML, CSS, JavaScript, Handlebars, Materialize, MySQL, Sequelize, Node.js, Express.
 
 ## Installation
-Download the file, open in VSC and run.
+Download the file
+
+```
+npm install
+node start
+```
 
 ## Acknowledgements
 Thanks to the instructors and teaching assistants at Columbia Univeristy Coding Bootcamp.
